@@ -20,7 +20,7 @@ int main()
     mraa_gpio_dir(l2, MRAA_GPIO_OUT);
     mraa_gpio_dir(l3, MRAA_GPIO_OUT);
 
-    printf("Reading potentiometer... Press Ctrl+C to exit.\n");
+    printf("Reading potentiometer..\n");
 
     while (1) {
         int value = mraa_aio_read(adc);
